@@ -37,7 +37,7 @@ module.exports = function toReadable (number) {
       const num = String(number).split('');
    if (num.length === 2) 
       if (number % 10 == 0) {
-        return numOne[number];
+        return numTwo[number];
       }else {
          if (num[0] == 2) {
             return 'twenty' + ' ' + numOne[num[1]];
