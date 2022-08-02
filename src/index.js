@@ -35,7 +35,6 @@ module.exports = function toReadable (number) {
       }
 
       const num = String(number).split('');
-   console.log(num)
    if (num.length === 2) 
       if (number % 10 == 0) {
         return numOne[number];
